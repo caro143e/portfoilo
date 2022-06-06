@@ -1,6 +1,17 @@
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 @media (min-width: 600px) {
   .splash img {
     max-width: 30%;
+  }
+  .page img {
+    max-width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
   .foot_grid {
     min-height: 100%;
@@ -34,8 +45,44 @@
   .pro-4 {
     margin-right: 41%;
   }
+
+  .grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 5%;
+  }
+  .col {
+    grid-column: auto;
+    align-self: center;
+  }
+  .col img {
+    max-width: 50%;
+  }
+
+  .grid-3 {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .grid-3 img {
+    max-width: 100%;
+  }
+
+  .flex-col {
+    display: flex;
+    flex-direction: column;
+  }
 }
+/* ----------------------------- mobil regler ------------------------------- */
 @media (max-width: 600px) {
+  .page img {
+    max-width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .grid-1 img {
     max-width: 80%;
   }
@@ -43,7 +90,22 @@
     display: grid;
     gap: 20px;
   }
-  .pro-1 {
+  .grid-3 img {
+    max-width: 80%;
+  }
+  .grid-2 img {
+    max-width: 80%;
+  }
+}
+/* 
+main {
+    margin-inline: 10%;
+  }
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.pro-1 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -63,4 +125,5 @@
     align-items: center;
     justify-content: center;
   }
-}
+  
+*/
