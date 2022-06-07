@@ -66,12 +66,17 @@ main {
     gap: 10px;
   }
   .grid-3 img {
-    max-width: 100%;
+    max-width: 250px;
+    max-height: 160px;
   }
 
   .flex-col {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+  }
+  .flex-col :last-child {
+    margin-top: auto;
   }
 }
 /* ----------------------------- mobil regler ------------------------------- */

@@ -7,7 +7,9 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 16px 12%;
+  border-bottom: 1px #000000;
 }
+
 .nav-links {
   display: flex;
   gap: 5rem;
@@ -19,7 +21,7 @@ a {
   font-size: 20px;
   font-weight: 500;
   text-decoration: none;
-  color: #e976f5;
+  color: #373737;
   font-family: "Work Sans", sans-serif;
 }
 
@@ -28,6 +30,10 @@ a {
 }
 .logo :hover {
   color: #0f16eb;
+}
+.nav2 {
+  margin-top: 2vw;
+  margin-left: 32vw;
 }
 
 body {
@@ -52,7 +58,7 @@ footer {
 h1 {
   font-family: "sniglet", sans-serif;
   font-weight: 500;
-  color: #c443eb;
+  color: #000000;
   font-size: 30px;
   text-align: center;
 }
@@ -125,4 +131,5 @@ width: 7%;
     background-image: url(foto/star.svg);
     background-size: cover;
 }
+#c443eb 
 */
