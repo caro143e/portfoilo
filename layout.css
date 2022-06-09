@@ -132,12 +132,7 @@
   .grid-3 img {
     max-height: 400px;
   }
-  .flex-col {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin: auto;
-  }
+
   .flex-col1 {
     display: flex;
     justify-content: center;
@@ -150,7 +145,6 @@
   .grid-4 {
     display: grid;
     gap: 20px;
-    background-color: #e2e0d9;
     margin-block: 7%;
   }
   .grid-4 p {
@@ -184,9 +178,11 @@
   .grid-2-1 img {
     margin-top: 10%;
   }
+
   .grid-2 {
     margin-top: 10%;
   }
+
   .grid-2-1 {
     margin-top: 10%;
   }
@@ -199,6 +195,7 @@
   .box {
     margin-top: 10%;
   }
+
   main {
     margin-inline: 10%;
   }
@@ -214,11 +211,5 @@
   }
   .splash h1 {
     background-color: #ffcef3;
-  }
-}
-@media (min-width: 900px) {
-  .grid_1 {
-    gap: 25px;
-    margin-inline-start: 0;
   }
 }

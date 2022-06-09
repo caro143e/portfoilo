@@ -39,11 +39,6 @@ a {
   margin-top: 2vw;
   margin-left: 32vw;
 }
-/*--
-body {
-  background-color: #ffd3f4;
-}
-*/
 
 footer {
   background-color: #ffffff;
@@ -80,6 +75,26 @@ figcaption {
   font-weight: 300;
   color: #5d5d5d;
 }
+.text-container a {
+  color: #4d0a74;
+  background-color: #ffd3f4;
+  padding: 5px 20px;
+  border-radius: 50px;
+}
+
+.baggrund {
+  background-color: #ffd3f4;
+}
+video {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+.videos {
+  display: grid;
+  grid-template-columns: 1r 1fr;
+  gap: 20px;
+}
 
 @media (min-width: 600px) {
   h1 {
@@ -93,3 +108,30 @@ figcaption {
     background-color: #4d0a74;
   }
 }
+/*  text på forside 
+
+  main {
+    position: relative;
+  }
+
+  .farve {
+    margin-top: -93px;
+  }
+
+  .text-container {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .text-container h1 {
+    background-color: transparent;
+    margin-bottom: 20px;
+  }
+  .splash img {
+    padding-top: 150px;
+  }
+}
+*/
