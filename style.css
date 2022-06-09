@@ -10,6 +10,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 40px 12%;
+  background-color: #ffffff;
 }
 
 .nav-links {
@@ -24,7 +25,8 @@ a {
   font-weight: 500;
   text-decoration: none;
   color: #373737;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
 }
 
 .nav-links li a:hover {
@@ -37,27 +39,30 @@ a {
   margin-top: 2vw;
   margin-left: 32vw;
 }
-
+/*--
 body {
-  background-color: #faf6f2;
+  background-color: #ffd3f4;
 }
+*/
+
 footer {
   background-color: #ffffff;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 15px;
   font-weight: 300;
   text-align: center;
 }
 
 h1 {
-  font-family: "sniglet", sans-serif;
-  font-weight: 500;
-  color: #000000;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  color: #4d0a74;
   font-size: 30px;
   text-align: center;
+  padding-top: 20px;
 }
 h2 {
-  font-family: "Work Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 10px;
@@ -71,72 +76,20 @@ p {
 }
 
 figcaption {
-  font-family: "sniglet", sans-serif;
-  font-weight: 400;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 300;
   color: #5d5d5d;
 }
 
-/* burgermenu */
-
-/*.toggle-btn {
-  background: transparent;
-  border: none;
-  font-size: 20px;
-  font-weight: 500;
-  color: #162658;
-  font-family: "Times New Roman", Times, serif;
-  cursor: pointer;
-}
-/*
-@media (max-width: 600px) {
-  .toggle-btn {
-    background: transparent;
-    border: none;
-    font-size: 20px;
-    font-weight: 500;
-    color: #162658;
-    font-family: "Times New Roman", Times, serif;
-    cursor: pointer;
+@media (min-width: 600px) {
+  h1 {
+    background-color: #ffd3f4;
   }
-  .toggle-btn {
-    display: block;
-  }
-
-  .main-menu {
-    display: contents;
-    text-align: right;
-  }
-
-  .main-menu .nav-links {
-    display: none;
-  }
-
-  .main-menu.shown .nav-links {
-    border-top: 1.5px solid #162658;
-    margin-top: 5%;
-    padding-top: 1rem;
-    display: flex;
-    flex: 1 1 100%;
-    flex-flow: column;
+  .splash h1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 40px;
+    background-color: #4d0a74;
   }
 }
-///
-
-/* #star1,
-#star2,
-#star3 {
-width: 7%;
-  aspect-ratio: 498/551;
-  position: absolute;
-}
-
-#star_sprite1, 
-#star_sprite2, 
-#star_sprite3 {
-    width: 100%;
-    height: 100%;
-    background-image: url(foto/star.svg);
-    background-size: cover;
-}
-#c443eb 
-*/
